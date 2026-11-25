@@ -31,6 +31,8 @@ PLAYER_DETECTION_MODEL_PATH = os.path.join(PROJECT_ROOT, 'models', 'active', 'yo
 # PITCH_DETECTION_MODEL_PATH = os.path.join(PARENT_DIR, 'data/football-pitch-detection-mike_1280.pt')
 # PITCH_DETECTION_MODEL_PATH = os.path.join(PARENT_DIR, 'data/football-pitch-detection-mike_640.pt')
 PITCH_DETECTION_MODEL_PATH = os.path.join(PROJECT_ROOT, 'models', 'active', 'pitch_v11m_640_footar_best.pt')
+BALL_DETECTION_MODEL_PATH = PLAYER_DETECTION_MODEL_PATH     # player model already detects the ball well enough
+# BALL_DETECTION_MODEL_PATH = os.path.join(PARENT_DIR, 'data/football-ball-detection.pt')   # this model is too slow
 
 
 BALL_CLASS_ID = 0
